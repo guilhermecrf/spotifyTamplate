@@ -7,3 +7,11 @@
 .aside-rounded {
     @apply w-3 h-3
 }
+
+.encore-text {
+    @apply font-bold
+}
+
+.nav-link {
+    @apply flex items-center gap-3 font-semibold text-zinc-300 hover:transition hover:duration-300 hover:text-white
+}
