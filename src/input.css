@@ -15,3 +15,23 @@
 .nav-link {
     @apply flex items-center gap-3 font-semibold text-zinc-300 hover:transition hover:duration-300 hover:text-white
 }
+
+.aside-btn {
+    @apply h-7 rounded-full bg-zinc-800 px-3 text-neutral-50 hover:bg-zinc-700 transition-colors
+}
+
+.main-header-btn {
+    @apply flex items-center justify-center w-8 h-8 rounded-full bg-black/40
+}
+
+.main-header-btn-2 {
+    @apply h-8 rounded-full bg-zinc-50 text-black px-3 py-1 text-sm font-medium hover:scale-105 transition-transform
+}
+
+.main-header-btn-3 {
+    @apply flex items-center gap-1 h-8 rounded-full text-white bg-neutral-950 px-3 py-1 text-sm font-medium hover:scale-105 transition-transform
+}
+
+.main-btn-hover {
+    @apply hover:bg-slate-50/30 transition-colors
+}
