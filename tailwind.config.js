@@ -5,7 +5,11 @@ module.exports = {
     'dist/*.{html,js}'
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        '85': '22.25rem'
+      },
+    },
     fontFamily: {
       Inter: ['Inter, sans-serif']
     },
