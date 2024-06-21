@@ -594,6 +594,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -835,6 +839,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .font-Inter {
   font-family: Inter, sans-serif;
 }
@@ -890,6 +899,50 @@ video {
 .text-zinc-500 {
   --tw-text-opacity: 1;
   color: rgb(113 113 122 / var(--tw-text-opacity));
+}
+
+.text-neutral-600 {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity));
+}
+
+.text-neutral-800 {
+  --tw-text-opacity: 1;
+  color: rgb(38 38 38 / var(--tw-text-opacity));
+}
+
+.text-neutral-300 {
+  --tw-text-opacity: 1;
+  color: rgb(212 212 212 / var(--tw-text-opacity));
+}
+
+.text-neutral-300\/90 {
+  color: rgb(212 212 212 / 0.9);
+}
+
+.text-neutral-300\/80 {
+  color: rgb(212 212 212 / 0.8);
+}
+
+.text-neutral-300\/50 {
+  color: rgb(212 212 212 / 0.5);
+}
+
+.text-neutral-500 {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
+}
+
+.text-neutral-500\/60 {
+  color: rgb(115 115 115 / 0.6);
+}
+
+.text-neutral-300\/30 {
+  color: rgb(212 212 212 / 0.3);
+}
+
+.text-neutral-500\/40 {
+  color: rgb(115 115 115 / 0.4);
 }
 
 .transition-colors {
